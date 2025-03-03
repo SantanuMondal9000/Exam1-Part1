@@ -26,6 +26,7 @@ a {
 }
 
 /* End Reset part */
+
 /* Default part */
 .primary-anchor {
 	padding: 15px 35px;
@@ -75,7 +76,7 @@ header a {
 }
 
 .logo-menu {
-	width: 60%;
+	width: 70%;
 	display: flex;
 	justify-content: space-between;
 
@@ -83,7 +84,7 @@ header a {
 }
 
 .login {
-	width: 40%;
+	width: 30%;
 
 }
 
