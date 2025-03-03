@@ -1,0 +1,186 @@
+/* Reset part */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #043F2E;
+}
+
+.container {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* End Reset part */
+/* Default part */
+.primary-anchor {
+	padding: 15px 35px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	text-transform: initial;
+}
+
+/* End Default part */
+
+/* Header part */
+header a {
+	text-transform: capitalize;
+}
+
+.learmore-popup {
+	background-color: #C8F169;
+	text-align: center;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.learmore-popup p {
+	color: #043F2E;
+	margin: 0 auto;
+}
+
+.cross-btn {
+	margin-right: 20px;
+}
+
+.learmore-popup a {
+	color: #043F2E;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	background-color: white;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.logo-menu {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.login {
+	width: 40%;
+
+}
+
+.nav-menu ul {
+	display: flex;
+	align-items: center;
+
+}
+
+.nav-menu ul li a {
+	padding: 15px;
+	color: #043F2E;
+}
+
+.login ul li a {
+	border: 1px solid #043F2E;
+	padding: 15px 35px;
+	border-radius: 5px;
+}
+
+.login ul li a:hover {
+	background-color: #043F2E;
+	color: #C8F169;
+}
+
+.login-active {
+	background-color: #043F2E;
+	color: #C8F169 !important;
+}
+
+.login-btns-list {
+	justify-content: end;
+
+}
+
+.login ul {
+	gap: 20px;
+}
+
+/* End Header part */
+/* Save seat */
+.save-seat-wrapper {
+	position: relative;
+	padding: 50px 0;
+	color: white;
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+.save-seat-wrapper h2 {
+	font-size: 3rem;
+	text-transform: capitalize;
+}
+
+.save-seat {
+	background-color: #78C51C;
+	position: relative;
+	font-family: 'Noticia';
+
+}
+
+.save-seat-box {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.save-seat-content {
+	display: flex;
+	padding: 50px;
+	background-color: #043F2E;
+	opacity: 0.8;
+	border-radius: 30px;
+}
+
+.save-seat .img-part {
+	width: 40%;
+}
+
+.text-area {
+	max-width: 45%;
+	padding-left: 80px;
+}
+
+.text-area *:not(:last-child),
+.platform-text-area *:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.text-area p:first-child {
+	text-transform: uppercase;
+	color: #C8F169;
+}
+
+.platform-text-area {
+	width: 40%;
+}
+
+/* End Save seat */
